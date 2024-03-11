@@ -1,6 +1,11 @@
 import React from 'react'
 
 const Navbar = () => {
+
+  const logout = () => {
+    window.open("http://localhost:5000/auth/logout","_self");
+    
+  }
   return (
     <div className='navbar'>
        <h1 className='logo'>SSO App</h1>
